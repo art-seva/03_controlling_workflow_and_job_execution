@@ -2,7 +2,7 @@ name: Website Deployment
 on:
   push:
     branches:
-      - master_off
+      - master
 jobs:
   lint:
     runs-on: ubuntu-latest
